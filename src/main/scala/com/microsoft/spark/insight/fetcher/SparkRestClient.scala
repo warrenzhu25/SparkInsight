@@ -39,7 +39,7 @@ import scala.util.control.NonFatal
 
 /**
  * A client for getting data from the Spark monitoring REST API,
- * e.g. <https://spark.apache.org/docs/1.4.1/monitoring.html#rest-api>.
+ * e.g. <https://spark.apache.org/docs/1.4.1/monitoring.views.html#rest-api>.
  *
  * Jersey classloading seems to be brittle (at least when testing in the console),
  * so some of the implementation is non-lazy
